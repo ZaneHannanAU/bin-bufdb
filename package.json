@@ -1,0 +1,23 @@
+{
+  "name": "bin-bufdb",
+  "version": "0.0.0",
+  "description": "A sequential binary database with (buffer) type system, using the file system.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test.js",
+    "make": "tsc >| tsc.log ; cat tsc.log"
+  },
+  "keywords": [
+    "db",
+    "database",
+    "bin",
+    "binary",
+    "buffer"
+  ],
+  "author": "zeen3",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/node": "^9.6.5",
+    "typescript": "^2.8.1"
+  }
+}
